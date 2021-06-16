@@ -24,7 +24,7 @@ var questions = [
     },
     {
       text: "сколько существует видов женского оргазма?",
-      answers: ["11", "2", "8", ""],
+      answers: ["11", "2", "8", "1"],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
       correctAnswerIndex: 1,
