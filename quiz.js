@@ -10,14 +10,14 @@ var questions = [
     },
     {
       text: "единственные страны где люди смотрят порно с ноутбуков",
-      answers: ["Индия и Италия", "Россия и Германия", "США и Китай", "Япония и Китай"],
+      answers: ["Индия и Италия", "США и Китай", "Россия и Германия", "Япония и Китай"],
       explanation: "question 2 explanation",
       explanationImage: "tiles/tiles-02.jpg",
       correctAnswerIndex: 3,
     },
     {
-      text: "question 3?",
-      answers: ["answer 3-1", "answer 3-2", "answer 3-3", "answer 3-4"],
+      text: "какой жанр прдепочитают центристы?",
+      answers: ["гей-порно", "куколд", "MILF", "gangbang"],
       explanation: "question 3 explanation",
       explanationImage: "tiles/tiles-03.jpg",
       correctAnswerIndex: 2,
