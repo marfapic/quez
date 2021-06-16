@@ -9,8 +9,8 @@ var questions = [
       correctAnswerIndex: 0,
     },
     {
-      text: "question 2?",
-      answers: ["answer 2-1", "answer 2-2", "answer 2-3", "answer 2-4"],
+      text: "единственные страны где люди смотрят порно с ноутбуков",
+      answers: ["Индия и Италия", "Россия и Германия", "США и Китай", "Япония и Китай"],
       explanation: "question 2 explanation",
       explanationImage: "tiles/tiles-02.jpg",
       correctAnswerIndex: 3,
