@@ -2,7 +2,7 @@
 
 var questions = [
     {
-      text: "question 1?",
+      text: "вопрос 1?",
       answers: ["answer 1", "answer 2", "answer 3", "answer 4"],
       explanation: "question 1 explanation",
       explanationImage: "tiles/tiles-01.jpg",
