@@ -2,8 +2,8 @@
 
 var questions = [
     {
-      text: "вопрос 1?",
-      answers: ["answer 1", "answer 2", "answer 3", "answer 4"],
+      text: "Как пандемия коронавируса повлияла на наши сексуальные желания?",
+      answers: ["сексуальные фантазии стали связаны с пандемией. Секс открытом воздухе, секс вдали от дома, секс в масках и так далее", "answer 2", "answer 3", "answer 4"],
       explanation: "question 1 explanation",
       explanationImage: "tiles/tiles-01.jpg",
       correctAnswerIndex: 0,
