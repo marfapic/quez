@@ -23,8 +23,8 @@ var questions = [
       correctAnswerIndex: 2,
     },
     {
-      text: "question 4?",
-      answers: ["answer 4-1", "answer 4-2", "answer 4-3", "answer 4-4"],
+      text: "сколько существует видов женского оргазма?",
+      answers: ["11", "2", "8", ""],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
       correctAnswerIndex: 1,
