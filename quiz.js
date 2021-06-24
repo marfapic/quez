@@ -42,7 +42,35 @@ var questions = [
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
       correctAnswerIndex: 0,
-    }
+    },
+    {
+      text: "Вопрос с подвохом. Какой жанр предпочитают люди старше 65 лет?",
+      answers: ["Никакой, люди старше 65 не смотрят порно", "БДСМ", "Young and teen", "Retro"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 2,
+    },
+    {
+      text: "Найдите верный факт о порно и его целевой аудитории",
+      answers: ["Чем выше доля консервативного населения в районе, тем выше шансы, что его житель смотрит порно", "Люди стали охотнее платить за порно-контент", "Порно смотрят люди с преимущественно гетеросексуальной ориентацией", "Феминистки не смотрят порно"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 2,
+    },
+    {
+      text: "Почти последний вопрос про статистику, в какой стране один из четырёх взрослых в  возрасте от 20 до 30 лет — девственник?",
+      answers: ["Россия", "Ирландия", "Япония", "Канада"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 2,
+    },
+    {
+      text: "Вы❓",
+      answers: ["депутат, который хочет запретить порно", "активный пользователь порно-ресурсов", "случайный интернет прохожий", "автор этого теста"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 2,
+    },
   ];
   
   var results = [
@@ -51,16 +79,16 @@ var questions = [
       minScore: 0,
     },
     {
-      text: "you scored 1-2",
-      minScore: 1,
+      text: "вы порно-нуб",
+      minScore: 1-3,
     },
     {
-      text: "you scored 3",
-      minScore: 3,
+      text: "вы случайный интернет-прохожий",
+      minScore: 1-6,
     },
     {
-      text: "you scored 4",
-      minScore: 4,
+      text: "вы порно-эксперт",
+      minScore: 10,
     },
   ];
   
