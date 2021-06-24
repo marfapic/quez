@@ -29,7 +29,21 @@ var questions = [
       explanationImage: "tiles/tiles-04.jpg",
       correctAnswerIndex: 4,
     },
-  ];
+    {
+      text: "Давайте проверим вашу порно-эрудицию, что значит термин POV?",
+      answers: ["Pussy Orgasm Vagina", "Point Of View", "Pretend Of Vulva", "Punishment Of Vagina"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 2,
+    },
+    {
+      text: "Как и у всего в мире, у порно есть свои темные стороны. Какие?",
+      answers: ["Анализ популярных порнографических фильмов обнаружил, что в 88% сцен присутствовала вербальная или физическая агрессия, как правило, по отношению к женщине", "Просмотр порно превращает людей в геев и лесбиянок", "Современные порно-актрисы и актеры работают в рабских условиях", "Современное порно искажает представление о сексе у людей"],
+      explanation: "question 4 explanation",
+      explanationImage: "tiles/tiles-04.jpg",
+      correctAnswerIndex: 0,
+    }
+    ],
   
   var results = [
     {
@@ -209,4 +223,3 @@ var questions = [
   }
   
   renderQuiz();
-  
