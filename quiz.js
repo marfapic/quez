@@ -13,7 +13,7 @@ var questions = [
       answers: ["всегда", "в новогодние праздники", "в лентие каникулы и сезон отпусков", "день святого валентина"],
       explanation: "question 2 explanation",
       explanationImage: "tiles/tiles-02.jpg",
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
     },
     {
       text: "К 8 марта porhub представил аналитику порно, которое нравится женщинам по всему миру, в среднем женщины предпочитают практически одно и то же, но Россия и здесь идет своим путем. Каким стал самый популярный жанр",
@@ -27,14 +27,14 @@ var questions = [
       answers: ["понедельник", "среда", "пятница", "воскресенье"],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
-      correctAnswerIndex: 4,
+      correctAnswerIndex: 3,
     },
     {
       text: "Давайте проверим вашу порно-эрудицию, что значит термин POV?",
       answers: ["Pussy Orgasm Vagina", "Point Of View", "Pretend Of Vulva", "Punishment Of Vagina"],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
     },
     {
       text: "Как и у всего в мире, у порно есть свои темные стороны. Какие?",
@@ -48,14 +48,14 @@ var questions = [
       answers: ["Никакой, люди старше 65 не смотрят порно", "БДСМ", "Young and teen", "Retro"],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
     },
     {
       text: "Найдите верный факт о порно и его целевой аудитории",
       answers: ["Чем выше доля консервативного населения в районе, тем выше шансы, что его житель смотрит порно", "Люди стали охотнее платить за порно-контент", "Порно смотрят люди с преимущественно гетеросексуальной ориентацией", "Феминистки не смотрят порно"],
       explanation: "question 4 explanation",
       explanationImage: "tiles/tiles-04.jpg",
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
     },
     {
       text: "Почти последний вопрос про статистику, в какой стране один из четырёх взрослых в  возрасте от 20 до 30 лет — девственник?",
