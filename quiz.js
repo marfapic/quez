@@ -80,11 +80,11 @@ var questions = [
     },
     {
       text: "вы порно-нуб",
-      minScore: 1-3,
+      minScore: 3,
     },
     {
       text: "вы случайный интернет-прохожий",
-      minScore: 3-6,
+      minScore: 6,
     },
     {
       text: "вы порно-эксперт",
