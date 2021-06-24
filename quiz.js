@@ -43,7 +43,7 @@ var questions = [
       explanationImage: "tiles/tiles-04.jpg",
       correctAnswerIndex: 0,
     }
-    ],
+  ];
   
   var results = [
     {
