@@ -223,7 +223,7 @@ function renderResults() {
   resultsElement.appendChild(resultTextElement);
 
   const image = document.createElement("img");
-  image.src = "q1.png";
+  image.src = "mainq.png";
   resultsElement.appendChild(image);
 
   var reset = document.createElement("button");
