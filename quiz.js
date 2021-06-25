@@ -202,7 +202,7 @@ function renderExplanation() {
 }
 
 function renderResults() {
-  setNumbering();
+  clearNumbering();
 
   var resultsElement = document.createElement("div");
   resultsElement.classList.add("results");
@@ -221,6 +221,10 @@ function renderResults() {
   resultTextElement.classList.add("results-text");
   resultTextElement.innerHTML = result.text;
   resultsElement.appendChild(resultTextElement);
+
+  const image = document.createElement("img");
+  image.src = "q1.png";
+  resultsElement.appendChild(image);
 
   var reset = document.createElement("button");
   reset.classList.add("reset-button");
@@ -258,7 +262,7 @@ function renderStartPage() {
 
   const img = document.createElement("img");
   img.classList.add("landing-image");
-  img.src = "todo_image.png";
+  img.src = "q1.png";
 
   landing.appendChild(title);
   landing.appendChild(button);
