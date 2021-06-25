@@ -223,12 +223,12 @@ function renderResults() {
   resultsElement.appendChild(resultTextElement);
 
   const image = document.createElement("img");
-  image.src = "res2.png";
+  image.src = "test1.png";
   resultsElement.appendChild(image);
 
   var reset = document.createElement("button");
   reset.classList.add("reset-button");
-  reset.innerHTML = "reset ∅";
+  reset.innerHTML = "reset";
   resultsElement.appendChild(reset);
 
   reset.addEventListener("click", function () {
