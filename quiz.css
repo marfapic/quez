@@ -31,10 +31,25 @@ body {
     font-size: calc(14 / 1440 * 100vw);
     font-style: italic;
   }
-  
+
+  .landing-text {
+    text-align: center;
+    font-weight: bold;
+    margin: calc(50 / 1440 * 100vw);
+    font-size: calc(24 / 1440 * 100vw);
+  }
+
+  .landing-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .answer,
   .next-question,
-  .reset-button {
+  .reset-button,
+  .landing-button {
     display: block;
     margin-bottom: calc(20 / 1440 * 100vw);
     background: none;
@@ -45,6 +60,13 @@ body {
     text-transform: uppercase;
     transition: background-color 0.2s ease;
     cursor: pointer;
+  }
+
+  .landing-button {
+    background-color: rgb(50, 106, 223);
+    color: white;
+    width: 30%;
+    align-self: center;
   }
   
   .answer:hover,
@@ -62,7 +84,8 @@ body {
     margin-bottom: calc(80 / 1440 * 100vw);
   }
   
-  .explanation-image-box {
+  .explanation-image-box,
+  .landing-image {
     display: flex;
     align-items: center;
     justify-content: center;
