@@ -68,14 +68,14 @@ var questions = [
       text: "Вы❓",
       answers: ["депутат, который хочет запретить порно", "активный пользователь порно-ресурсов", "случайный интернет прохожий", "автор этого теста"],
       explanation: "question 4 explanation",
-      explanationImage: "tiles/tiles-04.jpg",
+      explanationImage: "",
       correctAnswerIndex: 2,
     },
   ];
   
   var results = [
     {
-      text: "you scored 0",
+      text: "вы набрали 0 баллов",
       minScore: 0,
     },
     {
