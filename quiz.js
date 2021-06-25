@@ -67,7 +67,7 @@ var questions = [
     {
       text: "Вы❓",
       answers: ["депутат, который хочет запретить порно", "активный пользователь порно-ресурсов", "случайный интернет прохожий", "автор этого теста"],
-      explanation: "question 4 explanation",
+      explanation: "перейти к резульатам теста",
       explanationImage: "",
       correctAnswerIndex: 2,
     },
