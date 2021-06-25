@@ -103,6 +103,7 @@ var isStart = true;
 // shared elements
 
 var quizBox = document.querySelector(".quiz-box");
+var numbering = document.querySelector(".numbering");
 
 // rendering functions
 
@@ -113,7 +114,17 @@ function clearQuizBox() {
   }
 }
 
+function setNumbering() {
+  numbering.innerHTML = "" + (currentQuestionIndex + 1) + "/" + questions.length;
+}
+
+function clearNumbering() {
+  numbering.innerHTML = "";
+}
+
 function renderQuestion() {
+  setNumbering();
+
   var currentQuestion = questions[currentQuestionIndex];
   var questionElement = document.createElement("div");
   questionElement.classList.add("question");
@@ -142,6 +153,8 @@ function renderQuestion() {
 }
 
 function renderExplanation() {
+  setNumbering();
+
   var currentQuestion = questions[currentQuestionIndex];
 
   var explanationElement = document.createElement("div");
@@ -189,6 +202,8 @@ function renderExplanation() {
 }
 
 function renderResults() {
+  setNumbering();
+
   var resultsElement = document.createElement("div");
   resultsElement.classList.add("results");
 
@@ -224,6 +239,8 @@ function renderResults() {
 }
 
 function renderStartPage() {
+  clearNumbering();
+
   const landing = document.createElement("div");
   landing.classList.add("landing-body");
 

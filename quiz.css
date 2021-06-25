@@ -45,6 +45,11 @@ body {
     align-items: center;
     justify-content: center;
   }
+  
+  .numbering {
+    color: rgb(50, 106, 223);
+    text-align: center;
+  }
 
   .answer,
   .next-question,
