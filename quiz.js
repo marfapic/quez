@@ -186,7 +186,7 @@ function renderExplanation() {
 
   var nextQuestion = document.createElement("button");
   nextQuestion.classList.add("next-question");
-  nextQuestion.innerHTML = "next question ⟹";
+  nextQuestion.innerHTML = "next question";
   explanationElement.appendChild(nextQuestion);
 
   nextQuestion.addEventListener("click", function () {
@@ -223,7 +223,7 @@ function renderResults() {
   resultsElement.appendChild(resultTextElement);
 
   const image = document.createElement("img");
-  image.src = "mainq.png";
+  image.src = "res2.png";
   resultsElement.appendChild(image);
 
   var reset = document.createElement("button");
@@ -262,7 +262,7 @@ function renderStartPage() {
 
   const img = document.createElement("img");
   img.classList.add("landing-image");
-  img.src = "q1.png";
+  img.src = "mainq.png";
 
   landing.appendChild(title);
   landing.appendChild(button);
