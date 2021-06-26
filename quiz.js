@@ -81,7 +81,6 @@ var results = [
   {
     text: "вы порно-нуб",
     minScore: 3,
-    resultsImage: "q9-02.svg"
   },
   {
     text: "вы знаток-любитель",
