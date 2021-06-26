@@ -222,9 +222,24 @@ function renderResults() {
   resultTextElement.innerHTML = result.text;
   resultsElement.appendChild(resultTextElement);
 
-  const image = document.createElement("img");
-  image.src = "test1.png";
-  resultsElement.appendChild(image);
+  var resultImageBox = document.createElement("div");
+  resultImageBox.classList.add("result-image-box");
+  var resultImage = document.createElement("img");
+  resultImage.classList.add("result-image");
+  
+  if (score <= results[0].minScore) {
+    resultImage.src = "q1.png";
+  } else if (score <= results[1].minScore) {
+    resultImage.src = "q2.png";
+
+  } else if (score <= results[2].minScore) {
+    resultImage.src = "q3.png";
+  }
+  else if (score <= results[3].minScore) {
+    resultImage.src = "q4.png";
+  }
+  resultImageBox.appendChild(resultImage);
+  resultsElement.appendChild(resultImageBox);
 
   var reset = document.createElement("button");
   reset.classList.add("reset-button");
