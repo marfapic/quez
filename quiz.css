@@ -36,7 +36,7 @@ body {
     text-align: center;
     font-weight: bold;
     margin: calc(200 / 1440 * 100vw);
-    font-size: calc(80 / 1440 * 100vw);
+    font-size: calc(30 / 1440 * 100vw);
   }
 
   .landing-body {
