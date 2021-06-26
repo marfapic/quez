@@ -228,15 +228,15 @@ function renderResults() {
   resultImage.classList.add("result-image");
   
   if (score <= results[0].minScore) {
-    resultImage.src = "fin0-02.svg";
+    resultImage.src = "q1.png";
   } else if (score <= results[1].minScore) {
-    resultImage.src = "fin1-02.svg";
+    resultImage.src = "q2.png";
 
   } else if (score <= results[2].minScore) {
-    resultImage.src = "fin2-02.svg";
+    resultImage.src = "q3.png";
   }
   else if (score <= results[3].minScore) {
-    resultImage.src = "fin3-02.svg";
+    resultImage.src = "q4.png";
   }
   resultImageBox.appendChild(resultImage);
   resultsElement.appendChild(resultImageBox);
