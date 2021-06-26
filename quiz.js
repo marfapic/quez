@@ -262,7 +262,7 @@ function renderStartPage() {
 
   const img = document.createElement("img");
   img.classList.add("landing-image");
-  img.src = "main10-02.svg";
+  img.src = "main1-02.svg";
 
   landing.appendChild(title);
   landing.appendChild(button);
