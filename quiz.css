@@ -10,7 +10,7 @@ body {
   .dummy-box {
     display: none;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   
   .dummy-box-item {
@@ -42,8 +42,8 @@ body {
   .landing-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
   }
   
   .numbering {
