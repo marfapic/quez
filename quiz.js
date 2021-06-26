@@ -5,7 +5,7 @@ var questions = [
     text: "Вопрос о наболевшем: как пандемия коронавируса повлияла на наши сексуальные желания?",
     answers: ["сексуальные фантазии стали связаны с пандемией. Секс открытом воздухе, секс вдали от дома, секс в масках и так далее", "никак", "жанр хентай стал самым востребованным в россии", "трафик снизился, потому что все были дома с семьей"],
     explanation: "Международная паника, закрытие людей дома и заболевание, передающиеся через контакт не могли не сказаться на том, что мы думаем и делаем друг с другом. На XBIZ опубликовали исследование, сделанное с апреля по июнь организациями World Association of Sex Coaches и Sex Coach U. 20% ответивших отметили, что их сексуальные фантазии стали связаны с пандемией. Почти 5% опрошенных пользовались или начали пользоваться дистанционными секс-игрушками, управляемыми через приложение. Примерно столько же ставили эксперименты в БДСМ. Почти 20% были вдалеке от партнёров, виделись редко и поэтому чаще мастурбировали. Ещё около 18% провели весь карантин в одиночестве",
-    explanationImage: "q1-02.svg",
+    explanationImage: "mainfin-02.svg",
     correctAnswerIndex: 0,
   },
   {
@@ -67,7 +67,7 @@ var questions = [
   {
     text: "Вы❓",
     answers: ["депутат, который хочет запретить порно", "активный пользователь порно-ресурсов", "случайный интернет прохожий", "автор этого теста"],
-    explanation: "question 4 explanation",
+    explanation: "узнать результат",
     explanationImage: "",
     correctAnswerIndex: 2,
   },
@@ -88,7 +88,7 @@ var results = [
   },
   {
     text: "вы порно-эксперт",
-    minScore: 8,
+    minScore: 9,
   },
 ];
 
@@ -230,13 +230,13 @@ function renderResults() {
   if (score <= results[0].minScore) {
     resultImage.src = "q1.png";
   } else if (score <= results[1].minScore) {
-    resultImage.src = "q2.png";
+    resultImage.src = "plakrez-02.png";
 
   } else if (score <= results[2].minScore) {
-    resultImage.src = "q3.png";
+    resultImage.src = "var2user-02.png";
   }
   else if (score <= results[3].minScore) {
-    resultImage.src = "q4.png";
+    resultImage.src = "finfinboss-02.png";
   }
   resultImageBox.appendChild(resultImage);
   resultsElement.appendChild(resultImageBox);
