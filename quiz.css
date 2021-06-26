@@ -49,6 +49,7 @@ body {
   .numbering {
     color: rgb(50, 106, 223);
     text-align: center;
+    margin: calc(50 / 1440 * 100vw);
   }
 
   .answer,
